@@ -11,3 +11,9 @@ A dockerized template image containing typescript, pm2, nodemon.
 - Use the image by including the following in another Dockerfile.
 
 `FROM script`
+
+- Now in the example direcctory, build the image
+
+`docker build -t example:latest`
+
+Note:The 'example' image uses 'script' image as the base Image.
