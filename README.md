@@ -16,7 +16,7 @@ A dockerized template image containing typescript, pm2, nodemon.
 
 `docker build -t example:latest`
 
-Note:The 'example' image uses 'script' image as the base Image.
+Note: The 'example' image uses 'script' image as the base Image.
 
 - Now use the below to run the image
 
