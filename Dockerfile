@@ -8,7 +8,8 @@ RUN apk update && apk add sudo \
 # Install nodemon to support hot-reload while dev
 RUN npm install -g \
     nodemon \
-    typescript
+    typescript \
+    ts-node
 
 RUN npm install -g pm2@4.1.2
 
