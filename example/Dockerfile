@@ -1,4 +1,4 @@
-FROM script
+FROM safe-security-node
 
 WORKDIR /
 COPY index.js /
