@@ -12,13 +12,13 @@ A dockerized template image containing typescript, pm2, nodemon.
 
 `FROM safe-security-node`
 
-- Now in the example direcctory, build the image
+- Now go in the example directory (`cd example`), build the image
 
-`docker build -t example:latest`
+`docker build -t example:latest .`
 
 Note: The 'example' image uses 'safe-security-node' image as the base Image.
 
-- Now use the below to run the image
+- Now use the below command to run the image
 
 `docker run example`
 
